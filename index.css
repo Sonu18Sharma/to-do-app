@@ -1,0 +1,92 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Cedarville+Cursive&family=Pacifico&family=Poppins:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container {
+    background-color: rgb(0, 0, 0);
+    height: 670px;
+    width: 35%;
+    margin: 50px 480px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/image/alexander-andrews-fsH1KjbdjE8-unsplash.jpg);
+}
+/* video{
+    height: 100%;
+    width: 100%;
+} */
+.section-1{
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-between;
+}
+h1{
+    color: white;
+    font-family: 'Acme', sans-serif;
+    padding: 21px 0;
+    font-weight: lighter;
+    font-size: 35px;
+    text-align: center;
+}
+h3{
+    color: white;
+    padding: 12px 2px;
+    font-size: 18px;
+    font-family: 'Acme', sans-serif;
+}
+input{
+    height: 20px;
+    margin:9px;
+    cursor: pointer;
+}
+#text-h1{
+    font-size: 20px;
+}
+hr{
+    margin: 0 22px;
+    height: 2px;
+    background-color: white;
+}
+#input-add{
+    height: 30px;
+    width: 65%;
+    margin: 10px 22px;
+    border: solid black;
+    border-radius: 7px;
+    cursor: text;
+}
+a{
+    color: white;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 15px;
+}
+a:hover{
+    color: orange;
+}
+#to{
+    font-size: 23px;
+}
+li{
+    color: rgb(43, 42, 42);
+    list-style: none;
+    /* background-color: rgb(128, 128, 126); */
+    background-color: beige;
+    padding: 10px 50px;
+    border: solid black;
+    border-radius: 5px;
+}
+ul{
+    padding: 10px 20px;
+}
+li:hover{
+    background-color: rgb(128, 128, 126);
+    cursor: pointer;
+    color: white;}
